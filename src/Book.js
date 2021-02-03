@@ -1,7 +1,7 @@
 import React from "react";
 
 const Book = (props) => {
-  const { img, title, author, children } = props;
+  const { img, title, author } = props;
   //attribute, eventHandler
   // onClick, onMouseOver
   const clickHandler = () => {
